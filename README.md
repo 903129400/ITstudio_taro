@@ -1,2 +1,0 @@
-# ITstudio_taro
-gogogo!

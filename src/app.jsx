@@ -1,7 +1,7 @@
 import '@tarojs/async-await'
 import Taro, { Component } from '@tarojs/taro'
 import { Provider } from '@tarojs/redux'
-
+import 'taro-ui/dist/style/index.scss' // 引入组件样式 - 方式一
 import Index from './pages/index'
 
 import configStore from './store'
@@ -20,7 +20,8 @@ class App extends Component {
 
   config = {
     pages: [
-      'pages/index/index'
+      'pages/index/index',
+      'pages/test/index'
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -44,6 +45,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Index />
+
       </Provider>
     )
   }

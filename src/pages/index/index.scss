@@ -1,4 +1,74 @@
 .index {
-  flex-direction: column;
-  width: 100%;
+	flex-direction: column;
+	width: 100%;
+}
+.banner-swiperItem {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+}
+.banner {
+	width: 90%;
+
+	height: 350px;
+}
+.banner-img {
+	width: 100%;
+	height: 98%;
+	border-radius: 30px;
+	box-shadow: 10px 10px 5px #888888;
+}
+.banner-background {
+	width: 100%;
+	height: 400px;
+	background-color: #78a4f4;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.tabsCard {
+	margin-bottom: 20px;
+	min-height: 400px;
+	background: #ffffff;
+}
+.tabsCard-head {
+	padding-top: 30px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+.tabsCard-headImg {
+	margin-left: 30px;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+}
+.tabsCard-user {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 30px;
+}
+.tabsCard-name {
+	font-size: 34px;
+	color: #78a4f4;
+}
+.tabsCard-time {
+	font-size: 26px;
+	color: #888888;
+}
+.tabsCard-body {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	white-space: normal;
+}
+.tabsCard-title {
+}
+.tabsCard-content {
 }

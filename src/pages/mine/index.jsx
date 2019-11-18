@@ -22,10 +22,6 @@ import './index.scss';
 		},
 		changePage(value) {
 			dispatch(changePage(value));
-			// Taro.redirectTo({
-			// 	url: '/pages/test/index'
-			// });
-			Taro.navigateTo({ url: '/pages/test/index' });
 		}
 	})
 )
@@ -35,7 +31,7 @@ class Index extends Component {
 	}
 
 	config = {
-		navigationBarTitleText: 'test'
+		navigationBarTitleText: '我的'
 	};
 
 	componentWillReceiveProps(nextProps) {
